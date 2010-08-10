@@ -145,10 +145,10 @@ android:layout_y="149px"
 </TextView>
 <Button
 android:id="@+id/calc"
-android:layout_width="75px"
+android:layout_width="85px"
 android:layout_height="wrap_content"
 android:text="Calculate"
-android:layout_x="240px"
+android:layout_x="230px"
 android:layout_y="132px"
 >
 </Button>
