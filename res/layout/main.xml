@@ -176,7 +176,7 @@ android:layout_y="223px"
 android:id="@+id/amount"
 android:layout_width="212px"
 android:layout_height="wrap_content"
-android:layout_x="108px"
+android:layout_x="89px"
 android:layout_y="223px"
 >
 </TextView>
@@ -193,7 +193,7 @@ android:layout_y="263px"
 android:id="@+id/bags"
 android:layout_width="212px"
 android:layout_height="wrap_content"
-android:layout_x="108px"
+android:layout_x="89px"
 android:layout_y="263px"
 >
 </TextView>
@@ -210,7 +210,7 @@ android:layout_y="305px"
 android:id="@+id/sand"
 android:layout_width="230px"
 android:layout_height="wrap_content"
-android:layout_x="90px"
+android:layout_x="89px"
 android:layout_y="305px"
 >
 </TextView>
