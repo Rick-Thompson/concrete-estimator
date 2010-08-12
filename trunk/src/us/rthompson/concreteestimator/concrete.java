@@ -40,6 +40,18 @@ public class concrete extends Activity implements OnClickListener {
     }
 
 	public void onClick(View v) {
+		//make sure all values are filled in or set them to 0
+		if (lengthft.getText().length() < 1){lengthft.setText("0");
+		      }
+		if (lengthin.getText().length() < 1){lengthin.setText("0");
+	      }
+		if (widthft.getText().length() < 1){widthft.setText("0");
+	      }
+		if (widthin.getText().length() < 1){widthin.setText("0");
+	      }
+		if (thickness.getText().length() < 1){thickness.setText("0");
+	      }
+		
 		// convert sizes to inches
 		double length = Double.parseDouble(lengthft.getText().toString());
 		length = length * 12;
